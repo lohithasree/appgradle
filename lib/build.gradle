@@ -9,7 +9,7 @@
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
-    id "org.sonarqube" version "7.0.2"
+    id "org.sonarqube" version "3.3"
 }
 
 repositories {
@@ -22,7 +22,7 @@ dependencies {
 testImplementation group: 'junit', name: 'junit', version: '4.12'
   // https://mvnrepository.com/artifact/org.mockito/mockito-all
 testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
-    classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
+    //classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
 
   
     
