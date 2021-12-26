@@ -24,6 +24,11 @@ testImplementation group: 'junit', name: 'junit', version: '4.12'
 testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
     //classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
 
-  
-    
 }
+
+sonarqube {
+    properties {
+        property 'sonar.projectName', 'day1bankappgradle'
+    }
+}
+
